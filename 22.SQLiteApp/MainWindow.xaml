@@ -1,0 +1,26 @@
+﻿<Window x:Class="_22.SQLiteApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_22.SQLiteApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Txt_Entry" Content="Enter" HorizontalAlignment="Left" Margin="337,280,0,0" VerticalAlignment="Top" Width="118" Height="55" FontSize="36" Click="Txt_Entry_Click"/>
+        <TextBox x:Name="TxT_ID" HorizontalAlignment="Left" Height="28" Margin="65,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="20" Text=""/>
+        <TextBox x:Name="TxT_Name" HorizontalAlignment="Left" Height="28" Margin="323,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="20" Text=""/>
+        <TextBox x:Name="TxT_Lastname" HorizontalAlignment="Left" Height="28" Margin="601,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="20" Text=""/>
+        <TextBox x:Name="TxT_Email" HorizontalAlignment="Left" Height="28" Margin="323,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="20" Text=""/>
+        <TextBlock HorizontalAlignment="Left" Margin="232,27,0,0" TextWrapping="Wrap" Text="Please fill in the information" VerticalAlignment="Top" Height="71" Width="333" FontSize="26"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,123,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Height="28"
+                   FontSize="20" Width="37"/>
+        <TextBlock HorizontalAlignment="Left" Margin="254,123,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="28"
+            FontSize="20" Width="56"/>
+        <TextBlock HorizontalAlignment="Left" Margin="500,123,0,0" TextWrapping="Wrap" Text="Lastname" VerticalAlignment="Top" Height="28"
+            FontSize="20" Width="96"/>
+        <TextBlock HorizontalAlignment="Left" Margin="254,213,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Height="28"
+            FontSize="20" Width="56"/>
+
+    </Grid>
+</Window>
